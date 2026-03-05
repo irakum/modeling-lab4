@@ -3,8 +3,8 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        for (int N = 100; N < 3101; N+=200) {
-            task(3000, 10, N, 10);
+        for (int N = 100; N < 2201; N+=150) {
+            task(7000, 5, N, 1);
         }
     }
 

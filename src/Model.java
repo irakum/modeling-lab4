@@ -42,7 +42,7 @@ public class Model {
             }
 
             for (Element e : list) {
-                if (e.getTnext() == tcurr) {
+                if (Math.abs(e.getTnext() - tcurr) < 1e-9) {    // змінено, щоб уникнути похибок через формат double
                     e.outAct();
                 }
             }
